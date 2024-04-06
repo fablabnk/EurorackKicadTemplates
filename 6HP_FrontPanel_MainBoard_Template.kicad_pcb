@@ -12,13 +12,11 @@
     (38 "B.Mask" user)
     (39 "F.Mask" user)
     (40 "Dwgs.User" user "User.Drawings")
-    (41 "Cmts.User" user "User.Comments")
     (44 "Edge.Cuts" user)
     (45 "Margin" user)
     (46 "B.CrtYd" user "B.Courtyard")
     (47 "F.CrtYd" user "F.Courtyard")
     (49 "F.Fab" user)
-    (58 "User.9" user)
   )
 
   (setup
@@ -656,10 +654,10 @@
   (gr_text "PCB + PANEL BY\n42 BERLIN SYNTHLAB\nhttps://workish.berlin/fablab\n" (at 52.617474 65.278) (layer "B.SilkS") (tstamp d147f181-9ad1-413f-84f6-ec2fc8886933)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
   )
-  (dimension (type aligned) (layer "Dwgs.User") (tstamp 5b106765-2377-46bd-ba26-13f853477880)
+  (dimension locked (type aligned) (layer "Dwgs.User") (tstamp 5b106765-2377-46bd-ba26-13f853477880)
     (pts (xy 137.16 164.06) (xy 132.08 164.06))
     (height -3.58)
-    (gr_text "5.0800 mm" (at 134.62 166.49) (layer "Dwgs.User") (tstamp 5b106765-2377-46bd-ba26-13f853477880)
+    (gr_text locked "5.0800 mm" (at 134.62 166.49) (layer "Dwgs.User") (tstamp 5b106765-2377-46bd-ba26-13f853477880)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
@@ -674,6 +672,15 @@
     (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
     (style (thickness 0.05) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
   )
+  (dimension locked (type aligned) (layer "Dwgs.User") (tstamp 962902f3-93e6-4855-9a4d-816dc90ba4d1)
+    (pts (xy 136.42 46.81) (xy 107.42 46.81))
+    (height 1.09)
+    (gr_text locked "29.0000 mm" (at 121.92 44.57) (layer "Dwgs.User") (tstamp 962902f3-93e6-4855-9a4d-816dc90ba4d1)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
+    (style (thickness 0.1) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
+  )
   (dimension locked (type aligned) (layer "Dwgs.User") (tstamp 979f4b63-e22d-4dc0-95ce-094f525bfefa)
     (pts (xy 106.68 35.56) (xy 111.76 35.56))
     (height -5.08)
@@ -683,43 +690,40 @@
     (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
     (style (thickness 0.05) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
   )
-  (dimension locked (type aligned) (layer "F.Fab") (tstamp 962902f3-93e6-4855-9a4d-816dc90ba4d1)
-    (pts (xy 136.42 46.81) (xy 107.42 46.81))
-    (height 1.09)
-    (gr_text locked "29.0000 mm" (at 121.92 44.57) (layer "F.Fab") (tstamp 962902f3-93e6-4855-9a4d-816dc90ba4d1)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
-    (style (thickness 0.1) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
-  )
-  (dimension locked (type aligned) (layer "F.Fab") (tstamp c0218b5a-6cc0-451e-8e79-3ffc4ee7dd0f)
+  (dimension locked (type aligned) (layer "Dwgs.User") (tstamp c0218b5a-6cc0-451e-8e79-3ffc4ee7dd0f)
     (pts (xy 106.92 164.06) (xy 106.92 35.56))
     (height -4.05)
-    (gr_text locked "128.5000 mm" (at 101.72 99.81 90) (layer "F.Fab") (tstamp c0218b5a-6cc0-451e-8e79-3ffc4ee7dd0f)
+    (gr_text locked "128.5000 mm" (at 101.72 99.81 90) (layer "Dwgs.User") (tstamp c0218b5a-6cc0-451e-8e79-3ffc4ee7dd0f)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
     (style (thickness 0.1) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
   )
-  (dimension locked (type aligned) (layer "F.Fab") (tstamp e9a9c5ca-09ad-4eb4-9cbf-613f1320c6d9)
+  (dimension locked (type aligned) (layer "Dwgs.User") (tstamp e9a9c5ca-09ad-4eb4-9cbf-613f1320c6d9)
     (pts (xy 107.42 46.81) (xy 107.42 152.81))
     (height 2.01)
-    (gr_text locked "106.0000 mm" (at 104.26 99.81 90) (layer "F.Fab") (tstamp e9a9c5ca-09ad-4eb4-9cbf-613f1320c6d9)
+    (gr_text locked "106.0000 mm" (at 104.26 99.81 90) (layer "Dwgs.User") (tstamp e9a9c5ca-09ad-4eb4-9cbf-613f1320c6d9)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
     (style (thickness 0.1) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
   )
 
-  (group "" locked (id 1197361a-6d86-42d7-ad60-63ed8e89073a)
+  (group "" locked (id 532e7a78-c741-4297-83d6-94fa996eb589)
     (members
       6e3d58fe-e0cd-4a58-b991-2564c40d2251
       735e6137-06d0-41e9-aa58-36d9aca66434
       7ed642f0-4a73-483f-86fe-a58877082562
       89896a53-03e7-4112-8103-aaa0497f1a53
       979f4b63-e22d-4dc0-95ce-094f525bfefa
-      b3db57b5-af76-4e65-9dc0-e3f200e9f8d1
       c0218b5a-6cc0-451e-8e79-3ffc4ee7dd0f
+    )
+  )
+  (group "" locked (id dd4ef898-1e2a-4161-bf36-a5315f0f28a8)
+    (members
+      532e7a78-c741-4297-83d6-94fa996eb589
+      5b106765-2377-46bd-ba26-13f853477880
+      b3db57b5-af76-4e65-9dc0-e3f200e9f8d1
     )
   )
   (group "" (id 09e34b4d-76ee-4625-8b9a-2d64c53a9f19)
@@ -737,11 +741,12 @@
       f7095277-d068-4d4d-913e-a28a65195f9a
     )
   )
-  (group "" locked (id b51678d6-0397-403b-a983-7e87c9d7d5ee)
+  (group "" locked (id 98a1ebe2-670a-4282-bd02-786a1f228a4f)
     (members
       44f5f672-d3d9-409c-a7cf-4c94557986ad
       8d141614-1fc6-447d-b2f9-cfc16d3ff3d4
       962902f3-93e6-4855-9a4d-816dc90ba4d1
+      e6b2f155-cfee-46a3-9ee2-e84d758e4942
       e9a9c5ca-09ad-4eb4-9cbf-613f1320c6d9
     )
   )
